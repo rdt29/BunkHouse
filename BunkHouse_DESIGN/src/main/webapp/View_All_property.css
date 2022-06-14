@@ -1,0 +1,49 @@
+body
+{
+    margin: 0px;
+}
+
+.img1
+{
+    position:relative;
+    height: 6cm;
+    width: 6cm;
+    border: 2px solid black;
+    top: .2cm;
+    left: .2cm;
+}
+.book
+{
+    position: relative;
+    float: left;
+    top: -6.3cm;
+    left: 7cm;
+}
+.book li
+{
+    text-decoration: none;
+    list-style: none;
+    padding-right: 3cm;
+
+}
+.wifi
+{
+    text-decoration: none;
+    list-style: none;
+    padding-right: cm;
+
+}
+input[type="submit"]
+{
+	border-bottom: 2px solid black;
+	width:50%;
+	
+	cursor: pointer;
+}
+hr
+{
+	
+	 position: absolute;
+    width: 90%;
+	
+}

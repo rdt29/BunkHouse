@@ -1,0 +1,77 @@
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: monospace;
+    background:wheat;
+
+
+
+/* 
+    background-image:url('bunkhouselogo.png');
+    background-repeat: no-repeat;
+    background-size: 100%; */
+}
+#main
+{
+    width: 1%;
+    height: 20vh;
+    position: relative;
+
+}
+nav
+{
+    overflow: hidden;
+    display: flex  ;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top : 30px;
+    left: 0;
+    width: 100%;
+    background-color: brown;
+    /* box-shadow: 15px 10px 30px   rgba(0  ,0,0,10.2); */
+
+}
+.menu li a:hover
+{
+    /* color:rgb(0, 0, 0); */
+    color: white;
+    transition: all ease 0.5s;
+    /* background-color: rgb(3,167,157);; */
+    background-color: rgba(165, 42, 42, 0);
+    font: bold;
+}
+
+.logo img
+{
+    height: 55px;
+}
+.menu
+{
+    list-style: none;
+    display: flex;
+    font: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu li a
+{
+    height: 40px;
+    line-height: 43px;
+    margin: 3px;
+    padding: 0px 22 px;
+  /*    display: flex;*/
+    font-size: 0.9em;
+    text-transform: uppercase;
+    
+    letter-spacing: 1px;
+    color: rgb(0, 0, 0);
+    
+        display: inline;
+        margin-right: 70px;
+}
+a
+{
+    text-decoration: none;
+}

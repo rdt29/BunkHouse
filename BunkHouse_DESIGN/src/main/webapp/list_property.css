@@ -1,0 +1,62 @@
+
+.form
+{
+    position:absolute;
+
+    border: 2px solid red;
+    border-radius: 20px;
+  
+    
+    top :.5cm;
+    right:40%;
+    padding-top :.1cm;
+    padding-right: .8cm;
+    padding-left: .8cm;
+    padding-bottom: .8cm; 
+
+
+   animation-name: rdt;
+   animation-delay: 4s;
+   
+}
+@keyframes rdt {
+
+    form{
+        top :.5cm;
+        right:40%;
+
+    }
+    to
+    {
+        top:50%;
+        right:80%;
+
+    }
+    
+}
+.form h3
+{
+    text-align: center;
+    border-bottom: 2px solid black;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+input[type="submit"]
+{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+
+input[type="submit"]:hover
+{
+    background: #000;
+    color: greenyellow;
+    font:bold;
+    font-size: large;
+    text-transform: uppercase;
+
+}
+

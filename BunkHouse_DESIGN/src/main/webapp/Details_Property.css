@@ -1,0 +1,29 @@
+body
+{
+    width: 0cm;
+}
+
+.name h1
+{
+    position: absolute;
+  
+   text-align: center; 
+   
+    text-decoration: solid;
+    text-decoration: underline;
+    text-transform: capitalize;
+   left: 35%;
+}
+.info 
+{
+    position:absolute;
+    left:7cm;
+}
+.info li 
+{
+    text-decoration: none;
+    list-style: none;
+    padding-right: 5cm;
+    padding-left: 3cm;
+}
+ 
